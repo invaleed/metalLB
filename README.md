@@ -5,8 +5,8 @@ Load balancer for baremetal k8s.
 ```bash
 $ git clone https://github.com/invaleed/metalLB.git
 $ cd metalLB
-$ kubectl apply -f https://raw.githubusercontent.com/metallb/metallb/v0.9.3/manifests/namespace.yaml
-$ kubectl apply -f https://raw.githubusercontent.com/metallb/metallb/v0.9.3/manifests/metallb.yaml
+$ kubectl apply -f namespace.yaml
+$ kubectl apply -f metallb.yaml
 ```
 
 Create secret
